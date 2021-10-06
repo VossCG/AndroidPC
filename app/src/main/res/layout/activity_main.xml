@@ -7,11 +7,13 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/fake_swipe_but"
+        android:id="@+id/fake_swipeNext_but"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:text="swipe" />
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="100dp"
+        android:text="Next" />
 
     <me.relex.circleindicator.CircleIndicator3
         android:id="@+id/indicator"
@@ -25,10 +27,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/indicator"
-        android:layout_below="@+id/fake_swipe_but"
+        android:layout_below="@+id/fake_swipeNext_but"
         android:layout_marginBottom="0dp">
 
     </androidx.viewpager2.widget.ViewPager2>
+
+    <Button
+        android:id="@+id/fake_swipeBack_but"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:text="Back" />
 
 
 </RelativeLayout>

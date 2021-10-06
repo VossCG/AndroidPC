@@ -6,19 +6,19 @@
     <ImageView
         android:id="@+id/images"
         android:layout_width="match_parent"
-        android:layout_height="490dp"
+        android:layout_height="500dp"
         app:srcCompat="@drawable/ic_launcher_background" />
 
     <TextView
         android:id="@+id/name_text"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="48dp"
         android:layout_below="@+id/images"
         android:layout_alignParentBottom="true"
-        android:layout_marginTop="2dp"
-        android:layout_marginBottom="64dp"
-        android:gravity="center"
         android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
         android:text="imageNames"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 </RelativeLayout>
